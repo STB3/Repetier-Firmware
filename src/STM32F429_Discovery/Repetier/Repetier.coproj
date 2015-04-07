@@ -78,16 +78,16 @@
     <File name="cmsis_lib/source/stm32f4xx_gpio.c" path="cmsis_lib/source/stm32f4xx_gpio.c" type="1"/>
     <File name="pins.h" path="pins.h" type="1"/>
     <File name="ub_lib/stm32_ub_led.c" path="ub_lib/stm32_ub_led.c" type="1"/>
-    <File name="uiconfig.h" path="uiconfig.h" type="1"/>
     <File name="Communication.cpp" path="Communication.cpp" type="1"/>
+    <File name="uiconfig.h" path="uiconfig.h" type="1"/>
     <File name="Configuration.h" path="Configuration.h" type="1"/>
     <File name="uilang.h" path="uilang.h" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
     <File name="STM32F429_Disco" path="" type="2"/>
-    <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
-    <File name="ub_lib/stm32_ub_sdram.h" path="ub_lib/stm32_ub_sdram.h" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
+    <File name="ub_lib/stm32_ub_sdram.h" path="ub_lib/stm32_ub_sdram.h" type="1"/>
+    <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
     <File name="cmsis/core_cm4.h" path="cmsis/core_cm4.h" type="1"/>
     <File name="SdFat.h" path="SdFat.h" type="1"/>
@@ -96,19 +96,19 @@
     <File name="FatStructs.h" path="FatStructs.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_fmc.c" path="cmsis_lib/source/stm32f4xx_fmc.c" type="1"/>
     <File name="Eeprom.cpp" path="Eeprom.cpp" type="1"/>
-    <File name="Repetier.cpp" path="Repetier.cpp" type="1"/>
     <File name="cmsis_lib/source" path="" type="2"/>
-    <File name="Extruder.h" path="Extruder.h" type="1"/>
+    <File name="Repetier.cpp" path="Repetier.cpp" type="1"/>
     <File name="ub_lib/stm32_ub_led.h" path="ub_lib/stm32_ub_led.h" type="1"/>
-    <File name="ui.cpp" path="ui.cpp" type="1"/>
+    <File name="Extruder.h" path="Extruder.h" type="1"/>
     <File name="cmsis_boot/stm32f4xx_conf.h" path="cmsis_boot/stm32f4xx_conf.h" type="1"/>
+    <File name="ui.cpp" path="ui.cpp" type="1"/>
     <File name="cmsis_boot/system_stm32f4xx.h" path="cmsis_boot/system_stm32f4xx.h" type="1"/>
-    <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
     <File name="Extruder.cpp" path="Extruder.cpp" type="1"/>
-    <File name="Repetier.h" path="Repetier.h" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
     <File name="ui.h" path="ui.h" type="1"/>
-    <File name="gcode.h" path="gcode.h" type="1"/>
+    <File name="Repetier.h" path="Repetier.h" type="1"/>
     <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
+    <File name="gcode.h" path="gcode.h" type="1"/>
     <File name="HAL.cpp" path="HAL.cpp" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
     <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>

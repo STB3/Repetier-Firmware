@@ -1,33 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F4XX -DSTM32F429_439xx -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis_lib -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis_lib\include -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis_boot -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\ub_lib">
-      <target file="stm32f4xx_gpio.o" lastModified="14c94ce1a17">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1412fdda970"/>
-      </target>
-      <target file="stm32f4xx_fmc.o" lastModified="14c94ce1ac7">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fmc.c" lastModified="1412fdda970"/>
-      </target>
-      <target file="system_stm32f4xx.o" lastModified="14c94ce1a56">
-         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14c94ab961a"/>
-      </target>
-      <target file="startup_stm32f4xx.o" lastModified="14c94ce18d5">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14c94ab9637"/>
-      </target>
-      <target file="stm32_ub_led.o" lastModified="14c94ce1917">
-         <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="14c94cb45c2"/>
-      </target>
-      <target file="main.o" lastModified="14c94ce1958">
-         <source file="..\..\..\main.c" lastModified="14c94cb45f9"/>
-      </target>
-      <target file="stm32_ub_sdram.o" lastModified="14c94ce18a6">
-         <source file="..\..\..\ub_lib\stm32_ub_sdram.c" lastModified="14c94cb45dd"/>
-      </target>
-      <target file="stm32f4xx_rcc.o" lastModified="14c94ce19c6">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1412fdda970"/>
-      </target>
-   </processor>
-   <processor signature="arm-none-eabi-g++ noversion nomachine -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -fno-exceptions -fno-enforce-eh-specs -std=gnu++98 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F4XX -DSTM32F429_439xx -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis_lib -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis_lib\include -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis_boot -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\ub_lib">
-      <target file="STM32F429_Discoveryboard.o" lastModified="14c94d0f5c8">
+   <processor signature="arm-none-eabi-g++ noversion nomachine -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -fno-exceptions -fno-enforce-eh-specs -std=gnu++98 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F4XX -DSTM32F429_439xx -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis_lib -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis_lib\include -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\cmsis_boot -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier\ub_lib">
+      <target file="STM32F429_Discoveryboard.o" lastModified="14c94dcc1dd">
          <source file="..\..\..\STM32F429_Disco\STM32F429_Discoveryboard.cpp" lastModified="14c94724c15"/>
       </target>
    </processor>
