@@ -1,1 +1,6 @@
 /output/
+/STM32F4xx_DSP_StdPeriph_Lib/
+/STM32F4xx_StdPeriph_Driver/
+/Repetier/
+/doxygen/
+/CMSIS/
