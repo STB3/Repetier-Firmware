@@ -76,22 +76,27 @@ typedef char prog_char;
 #define EXTRUDER_TIMER_CHANNEL  0
 #define EXTRUDER_TIMER_IRQ      ID_TC0
 #define EXTRUDER_TIMER_VECTOR   TC0_Handler
+
 #define PWM_TIMER               TC0
 #define PWM_TIMER_CHANNEL       1
 #define PWM_TIMER_IRQ           ID_TC1
 #define PWM_TIMER_VECTOR        TC1_Handler
+
 #define TIMER1_TIMER            TC2
 #define TIMER1_TIMER_CHANNEL    2
 #define TIMER1_TIMER_IRQ        ID_TC8
 #define TIMER1_COMPA_VECTOR     TC8_Handler
+
 #define SERVO_TIMER             TC2
 #define SERVO_TIMER_CHANNEL     0
 #define SERVO_TIMER_IRQ         ID_TC6
 #define SERVO_COMPA_VECTOR      TC6_Handler
+
 #define BEEPER_TIMER            TC1
 #define BEEPER_TIMER_CHANNEL    0
 #define BEEPER_TIMER_IRQ        ID_TC3
 #define BEEPER_TIMER_VECTOR     TC3_Handler
+
 #define DELAY_TIMER             TC1
 #define DELAY_TIMER_CHANNEL     1
 #define DELAY_TIMER_IRQ         ID_TC4  // IRQ not really used, needed for pmc id
