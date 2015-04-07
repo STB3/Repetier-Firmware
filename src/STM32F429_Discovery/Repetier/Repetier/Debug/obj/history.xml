@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F429ZI -I..\..\..\..\..\..\..\Software_Development\Repetier-Firmware\src\STM32F429_Discovery\Repetier">
+      <target file="main.o" lastModified="14c93969244">
+         <source file="..\..\..\app\main.c" lastModified="14c93951212"/>
+      </target>
+   </processor>
+</history>
