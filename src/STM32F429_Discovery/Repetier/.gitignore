@@ -3,9 +3,5 @@
 /Repetier/
 /Repetier/Debug/
 /doxygen/
-/cmsis/
-/cmsis_boot/
-/cmsis_lib/
 /stm32f429/
-/ub_lib/
 /Debug/
